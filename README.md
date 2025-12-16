@@ -9,11 +9,6 @@ This project implements a robust **Sensor Fusion framework** designed for Autono
 
 Unlike standard "black-box" implementations, this repository demonstrates the underlying **Linear Algebra** and **State Estimation** algorithms (Kalman Filtering) required to project 3D world coordinates onto a 2D image plane with high precision.
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Running+Simulation+Screenshot" alt="Sensor Fusion Visualization">
-  <br>
-  <em>Figure 1: Visualization of 3D LIDAR point cloud projected onto the camera plane with depth-based color coding.</em>
-</p>
 
 ## Core Engineering Concepts
 
