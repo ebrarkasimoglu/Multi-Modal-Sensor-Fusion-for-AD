@@ -1,0 +1,5 @@
+{
+  "name": "Multi-Modal-Sensor-Fusion-for-AD",
+  "description": "An interactive portfolio project demonstrating the linear algebra behind fusing 3D LIDAR data onto a 2D Camera image. Visualizes the Extrinsic and Intrinsic matrix transformations in real-time.",
+  "requestFramePermissions": []
+}
