@@ -20,7 +20,6 @@ Unlike standard "black-box" implementations, this repository demonstrates the un
 ### 1. Coordinate Transformations (The Math)
 The core challenge in sensor fusion is calibrating the Extrinsic parameters (Rotation $R$ and Translation $T$) between the LIDAR and the Camera. This project implements the homogeneous coordinate transformation:
 
-$$P_{img} = K \cdot [R | T] \cdot P_{world}$$
 
 Where:
 * **$P_{world}$**: 3D coordinates from LIDAR $(x, y, z)$.
@@ -43,10 +42,3 @@ Instead of relying on pre-processed datasets (like KITTI) which often mask algor
 * **Numerical Computation:** NumPy (Matrix operations & Linear Algebra)
 * **Visualization:** Matplotlib (2D/3D plotting)
 * **Computer Vision Logic:** Custom implementation (No heavy dependence on high-level APIs)
-
-## Installation & Usage
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/ebrarkasimoglu/Multi-Modal-Sensor-Fusion-for-AD.git](https://github.com/ebrarkasimoglu/Multi-Modal-Sensor-Fusion-for-AD.git)
-   cd Multi-Modal-Sensor-Fusion-for-AD
