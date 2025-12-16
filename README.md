@@ -1,9 +1,5 @@
 # Multi-Modal Sensor Fusion for Autonomous Driving
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Status](https://img.shields.io/badge/status-active-success)
-
 ## Project Overview
 This project implements a robust **Sensor Fusion framework** designed for Autonomous Driving perception systems. It focuses on the mathematical alignment of **3D LIDAR Point Clouds** with **2D Camera Imagery** to create a unified perception output.
 
